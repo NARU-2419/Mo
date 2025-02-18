@@ -5,15 +5,15 @@ from telegram.ext import Application, CommandHandler, CallbackContext
 from telegram.error import TelegramError
 
 # Bot token and allowed admin user
-TELEGRAM_BOT_TOKEN = '7868284104:AAFfKh3qZL7-i-ufJaFOj2ZDrtDRvsV92Ig'
-ALLOWED_USER_ID = 1441704343  # Admin user ID
+TELEGRAM_BOT_TOKEN = '7216203077:AAFZykAxwIDMWdDB8c1TOQ81uLZqZWbEA6Y'
+ALLOWED_USER_ID = 2128531830  # Admin user ID
 allowed_users = {ALLOWED_USER_ID}  # Set of allowed users, initially only the admin is allowed
 active_users = set()  # Track users who have interacted with the bot
 
 bot_access_free = False  # Control if the bot is open for all users or restricted
 
 # UPI ID for payment
-UPI_ID = "gaurav.vo@fam"  # Replace with your actual UPI ID
+UPI_ID = "dm"  # Replace with your actual UPI ID
 
 # Get Admin's username
 async def get_admin_username(context):
